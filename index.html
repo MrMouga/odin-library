@@ -19,7 +19,7 @@
         
 
         <form>
-            <div class="group">      
+            <div class="group" id="book-field">      
               <input type="text" required>
               <span class="highlight"></span>
               <span class="bar"></span>
@@ -34,11 +34,13 @@
             </div>
 
             <div class="group">      
-                <input type="text">
+                <input type="text" required>
                 <span class="highlight"></span>
                 <span class="bar"></span>
                 <label>Comment</label>
               </div>
+
+      
             
             <select class="group">
                 <option value=true >Read</option>
@@ -52,7 +54,7 @@
 
         </div>
 
-        <table class="bookTable">
+        <table class="bookTable" id ="myTable">
             <tr>
                 <th>Book</th>
                 <th>Author</th>
@@ -60,42 +62,7 @@
                 <th>Read</th>
                 <th>Delete</th>
             </tr>
-            <tr>
-                <td>Harry Potter</td>
-                <td>J.K. Rowling</td>
-                <td>Good book</td>
-                <td>
-                    <button class="read-btn">Read</button>
-                </td>
-                <td>
-                    <button class="delete-btn">Delete</button>
-                </td>
-
-            </tr>
-            <tr>
-                <td>Harry Potter</td>
-                <td>J.K. Rowling</td>
-                <td>Good book</td>
-                <td>
-                    <button class="read-btn">Read</button>
-                </td>
-                <td>
-                    <button class="delete-btn">Delete</button>
-                </td>
-            </tr>
-            <tr>
-                <td>Harry Potter</td>
-                <td>J.K. Rowling</td>
-                <td>Good book</td>
-                <td>
-                    <button class="read-btn">Read</button>
-                </td>
-                <td>
-                    <button class="delete-btn">Delete</button>
-                </td>
-            </tr>
-
-
+            
         </table>
     
 
