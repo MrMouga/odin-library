@@ -18,23 +18,23 @@
         </header>
         
 
-        <form>
-            <div class="group" id="book-field">      
-              <input type="text" required>
+        <form id="myForm">
+            <div class="group">      
+              <input type="text" id="bookField" required>
               <span class="highlight"></span>
               <span class="bar"></span>
               <label>Book</label>
             </div>
               
             <div class="group">      
-              <input type="text" required>
+              <input type="text" id="authorField" required>
               <span class="highlight"></span>
               <span class="bar"></span>
               <label>Author</label>
             </div>
 
             <div class="group">      
-                <input type="text" required>
+                <input type="text" id="commentField"  required>
                 <span class="highlight"></span>
                 <span class="bar"></span>
                 <label>Comment</label>
@@ -42,9 +42,9 @@
 
       
             
-            <select class="group">
-                <option value=true >Read</option>
-                <option value=false >Not read yet</option>
+            <select id="readField" class="group">
+                <option  value=true >Read</option>
+                <option  value=false >Not read yet</option>
             </select>
 
             <input type=submit class="submit-btn" value="Submit">
