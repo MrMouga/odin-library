@@ -99,8 +99,6 @@ let deleteBtns = document.querySelectorAll(".delete-btn");
     })});}
 
 
-
-
 function deleteBook(bookDeleted){
    
         for (let i = 0; i < myLibrary.length; i++) {
@@ -111,5 +109,7 @@ function deleteBook(bookDeleted){
         bookDeleted.remove();
       }
 
+
+      
 
 
